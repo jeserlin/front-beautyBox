@@ -1,3 +1,8 @@
+#Front-beautyBox
+
+This is the front end of Beauty Box.<br>
+You can check out the back end here: https://github.com/Shu-Duan/back-beautyBox
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
