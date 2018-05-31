@@ -1,5 +1,30 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+/*padding*/
+.pt {
+	padding-top: .5em;
+}
+.pt1 {
+	padding-top: 1em;
+}
+.pt2 {
+	padding-top: 2em;
+}
+.pt3 {
+	padding-top: 3em;
+}
+.pb {
+	padding-bottom: .5em;
+}
+.pb1 {
+	padding-bottom: 1em;
+}
+.pb2 {
+	padding-bottom: 2em;
+}
+.pb3 {
+	padding-bottom: 3em;
 }

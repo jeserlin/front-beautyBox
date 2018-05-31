@@ -1,5 +1,26 @@
 body {
-  padding: 50px;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a {
+  color: #737373;
+}
+
+.frame {
+  border: 3px solid #F7786B;
+  border-radius: 15px;
+}
+
+.greyBtn {
+  background-color: #b3b3b3;
+  color: white;
+}
+
+.greyBtn:hover, .greyBtn:active {
+  background-color: #808080;
+  color: white;
 }
 
 @keyframes App-logo-spin {
