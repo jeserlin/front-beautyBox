@@ -1,0 +1,17 @@
+.leftPart {
+	padding-top: 1em;
+	height: 100vh;
+}
+
+.rightPart {
+	height: 100vh;
+	background-color: #f7e6e3;
+	overflow: auto;
+}
+
+.leftPart > center > div > button {
+	border: none;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-size: 18px;
+}

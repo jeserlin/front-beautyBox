@@ -16,6 +16,12 @@ body {
 .pt3 {
 	padding-top: 3em;
 }
+.pt4 {
+	padding-top: 4em;
+}
+.pt5 {
+	padding-top: 5em;
+}
 .pb {
 	padding-bottom: .5em;
 }
@@ -27,4 +33,10 @@ body {
 }
 .pb3 {
 	padding-bottom: 3em;
+}
+.pb4 {
+	padding-bottom: 4em;
+}
+.pb5 {
+	padding-bottom: 5em;
 }

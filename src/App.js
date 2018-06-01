@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Form, FormGroup, FormControl, Button } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+
+// CSS
 import './App.css';
+
+// Main page
+import Main from './pages/main/Main';
 
 // My Components
 import Logo from './components/logo/Logo';
@@ -13,10 +19,10 @@ const logoStyle = {
   maxWidth: '250px'
 };
 
-class App extends Component {
+class Login extends Component {
   render() {
     return (
-      <Grid>
+      <Grid id="loginFrame">
         <Row className="show-grid">
             <Col className="pb2" xs={12} md={4} mdOffset={4}>
                 <center>
@@ -37,7 +43,7 @@ class App extends Component {
                   </FormGroup>
                   <FormGroup className="pb1">
                     <Col xs={12} md={8} mdOffset={2}>
-                      <Button className="greyBtn" bsSize="large" block>Login</Button>
+                      <Link to="/main"><Button className="greyBtn" bsSize="large" block>Login </Button></Link>
                     </Col>
                   </FormGroup>
                   <FormGroup className="pb1">
@@ -53,9 +59,28 @@ class App extends Component {
                 </Form>
             </Col>
           </Row>
+          
       </Grid>
     );
   }
 }
+
+// Router
+class ModalSwitch extends Component {
+  render() {
+    return (
+      <Switch>
+        <Route exact path="/" component={Login}/>
+        <Route path="/main" component={Main}/>
+      </Switch>
+    );
+  }
+}
+
+const App = () => (
+  <Router>
+    <Route component={ModalSwitch} />
+  </Router>
+);
 
 export default App;
