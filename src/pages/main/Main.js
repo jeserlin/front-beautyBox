@@ -5,6 +5,7 @@ import './Main.css';
 // My Components
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/navBar/NavBar';
+import UserPic from '../../components/userPic/UserPic';
 
 //Icon
 import FaHeart from 'react-icons/lib/fa/heart';
@@ -19,6 +20,10 @@ const logoStyle = {
 const iconStyle = {
 	color: '#f7786b',
 	fontSize: '20'
+}
+
+const userPic = {
+	width: '50px'
 }
 
 class Main extends Component {
@@ -40,6 +45,9 @@ class Main extends Component {
 					</center>
 			    </Col>
 			    <Col className="rightPart" xs={12} md={10}>
+			    	<Col align="right" xsHidden smHidden>
+			    		<UserPic style={userPic} />
+			    	</Col>
 			    	
 			    </Col>
 			</div>

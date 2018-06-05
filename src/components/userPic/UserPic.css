@@ -1,0 +1,7 @@
+.img-thumbnail-pink {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: .2em solid #f7786b;
+  max-width: 100%;
+  height: auto;
+}
