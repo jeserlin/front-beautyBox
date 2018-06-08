@@ -11,7 +11,7 @@ class NavBar extends Component {
 			    	<Navbar.Brand>
 			      		<a className="navbar-brand" href="#brand">
 			      			<Col xs={3}>
-			      				<Image className="logo" src={logo} alt="logo"/>
+			      				<Image className="logo" src={logo} alt="logo" />
 			      			</Col>
 			      			<Col xs={9}>
 			      				<div className="logo-text">BeautyBox</div>
@@ -23,10 +23,16 @@ class NavBar extends Component {
 			  	<Navbar.Collapse>
 			  		<Nav>
 				    	<NavItem eventKey={1} href="#">
-				      		Link
+				      		我的最愛
 				    	</NavItem>
 				    	<NavItem eventKey={2} href="#">
-				      		Link
+				      		庫存管理
+				    	</NavItem>
+				    	<NavItem eventKey={3} href="#">
+				      		會員資料
+				    	</NavItem>
+				    	<NavItem eventKey={4} href="#">
+				      		登出
 				    	</NavItem>
 				  	</Nav>
 				</Navbar.Collapse>

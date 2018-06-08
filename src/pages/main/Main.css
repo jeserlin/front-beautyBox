@@ -10,7 +10,7 @@
 	padding: 1.5em;
 }
 
-.leftPart > center > div > button {
+.leftPart > center > div > a > button {
 	border: none;
 	padding-top: 2em;
 	padding-bottom: 2em;

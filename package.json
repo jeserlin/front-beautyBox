@@ -16,5 +16,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This is the front end of Beauty Box.<br> You can check out the back end here: https://github.com/Shu-Duan/back-beautyBox",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeserlin/front-beautyBox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeserlin/front-beautyBox/issues"
+  },
+  "homepage": "https://github.com/jeserlin/front-beautyBox#readme"
 }
