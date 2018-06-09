@@ -56,10 +56,10 @@ class Main extends Component {
 				    	<Col align="right" xsHidden smHidden>
 				    		<UserPic style={userPic} />
 				    	</Col>
-				    	<Col>
-				    		<Route exact path="/myFavorite" component={MyFavorite} />
-				    		<Route exact path="/inventory" component={Inventory} />
-				    		<Route exact path="/userInfo" component={UserInfo} />
+				    	<Col className="pt5">
+				    		<Route path="/myFavorite" component={MyFavorite} />
+				    		<Route path="/inventory" component={Inventory} />
+				    		<Route path="/userInfo" component={UserInfo} />
 				    	</Col>
 				    </Col>
 				</div>

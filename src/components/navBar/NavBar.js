@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { LinkContainer } from "react-router-bootstrap";
 import { Col, Navbar, Nav, NavItem, Image } from 'react-bootstrap';
 import './NavBar.css';
 import logo from '../../img/favicon.png';
@@ -22,18 +23,24 @@ class NavBar extends Component {
 			  	</Navbar.Header>
 			  	<Navbar.Collapse>
 			  		<Nav>
-				    	<NavItem eventKey={1} href="#">
-				      		我的最愛
-				    	</NavItem>
-				    	<NavItem eventKey={2} href="#">
-				      		庫存管理
-				    	</NavItem>
-				    	<NavItem eventKey={3} href="#">
-				      		會員資料
-				    	</NavItem>
-				    	<NavItem eventKey={4} href="#">
-				      		登出
-				    	</NavItem>
+			  			<LinkContainer to="/myFavorite">
+					    	<NavItem eventKey={1} href="#">
+					      		我的最愛
+					    	</NavItem>
+				    	</LinkContainer>
+				    	<LinkContainer to="/inventory">
+					    	<NavItem eventKey={2} href="#">
+					      		庫存管理
+					    	</NavItem>
+					    </LinkContainer>
+					    <LinkContainer to="/userInfo">
+					    	<NavItem eventKey={3} href="#">
+					      		會員資料
+					    	</NavItem>
+				    	</LinkContainer>
+					    <NavItem eventKey={4} href="#">
+					      	登出
+					    </NavItem>
 				  	</Nav>
 				</Navbar.Collapse>
 			</Navbar>
