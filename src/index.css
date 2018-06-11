@@ -3,6 +3,20 @@ body {
   padding: 0;
 }
 
+/*head*/
+.subhead {
+	color: #343a40!important;
+	font-weight: normal;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px #F7786B solid;
+}
+/*position*/
+.center {
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
 /*padding*/
 .pt {
 	padding-top: .5em;
