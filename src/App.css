@@ -13,16 +13,6 @@ a {
   border-radius: 15px;
 }
 
-.greyBtn {
-  background-color: #b3b3b3;
-  color: white;
-}
-
-.greyBtn:hover, .greyBtn:active {
-  background-color: #808080;
-  color: white;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

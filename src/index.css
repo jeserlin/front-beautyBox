@@ -5,18 +5,44 @@ body {
 
 /*head*/
 .subhead {
-	color: #343a40!important;
+	color: #666666 !important;
 	font-weight: normal;
-	padding-top: 8px;
+	padding-top: 15px;
 	padding-bottom: 8px;
-	border-bottom: 1px #F7786B solid;
+	border-bottom: 2px #F7786B solid;
 }
+/*form-horizontal*/
+.form-horizontal > .form-group > label {
+	color: #666666 !important;
+}
+
 /*position*/
 .center {
 	left: 50%;
 	top: 50%;
 	position: absolute;
 }
+/*cus-button*/
+.greyBtn {
+  background-color: #b3b3b3;
+  color: white;
+}
+
+.greyBtn:hover, .greyBtn:active {
+  background-color: #808080;
+  color: white;
+}
+
+.pinkBtn {
+	color: #ffffff;
+	background-color: #faa79e !important;
+}
+
+.pinkBtn:hover {
+	color: #ffffff;
+	background-color: #f99186 !important;
+}
+
 /*padding*/
 .pt {
 	padding-top: .5em;

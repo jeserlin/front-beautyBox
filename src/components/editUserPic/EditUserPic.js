@@ -12,7 +12,7 @@ class EditUserPic extends Component {
 					<Image className="max250" src={defaultPic} responsive thumbnail />
 				</Col>
 				<Col className="pt1" xs={12}>
-					<Button className="max250" block>上傳照片</Button>
+					<Button className="max250 pinkBtn" block>上傳照片</Button>
 				</Col>
 			</Col>
 		);

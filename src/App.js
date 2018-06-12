@@ -29,7 +29,7 @@ class Login extends Component {
                   <Logo style={logoStyle} />
                 </center>
             </Col>
-            <Col className="frame pt3" xs={12} md={6} mdOffset={3}>
+            <Col className="frame pt3" xsOffset={1} xs={10} md={6} mdOffset={3}>
                 <Form horizontal>
                   <FormGroup className="pb1">
                     <Col xs={12} md={8} mdOffset={2}>

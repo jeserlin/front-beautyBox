@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, FormGroup, Grid, Col, ControlLabel, FormControl, Button } from 'react-bootstrap';
+import { Form, FormGroup, Col, ControlLabel, FormControl, Button } from 'react-bootstrap';
 import './UserInfo.css';
 
 // My Components
@@ -8,9 +8,13 @@ import EditUserPic from '../../components/editUserPic/EditUserPic';
 class UserInfo extends Component {
 	render() {
 		return(
-			<Grid>
+			<div>
 				<h3 className="subhead">會員資料</h3>
-				<Col className="pt1" md={7}>
+				<Col className="pt2" md={4} mdPush={7}>
+					<center><EditUserPic /></center>
+				</Col>
+				<Col className="pt2" xs={12} mdHidden lgHidden></Col>
+				<Col className="pt2" md={7} mdPull={4}>
 					<Form horizontal>
 						<FormGroup controlId="formHorizontalEmail">
 					    	<Col componentClass={ControlLabel} sm={3}>
@@ -48,16 +52,13 @@ class UserInfo extends Component {
 					  	</FormGroup>
 
 					  	<FormGroup>
-					    	<Col smOffset={3} sm={10}>
-					      		<Button type="submit">存儲</Button>
+					    	<Col smOffset={3} sm={9} >
+					      		<Button className="pinkBtn" type="submit">存儲</Button>
 					    	</Col>
 					  	</FormGroup>
 					</Form>
 				</Col>
-				<Col className="pt1" md={4}>
-					<EditUserPic />
-				</Col>
-			</Grid>
+			</div>
 		);
 	}
 }

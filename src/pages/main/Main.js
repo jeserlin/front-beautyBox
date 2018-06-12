@@ -56,7 +56,7 @@ class Main extends Component {
 				    	<Col align="right" xsHidden smHidden>
 				    		<UserPic style={userPic} />
 				    	</Col>
-				    	<Col className="pt">
+				    	<Col className="pt" xs={12}>
 				    		<Route path="/myFavorite" component={MyFavorite} />
 				    		<Route path="/inventory" component={Inventory} />
 				    		<Route path="/userInfo" component={UserInfo} />

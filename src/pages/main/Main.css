@@ -4,7 +4,7 @@
 }
 
 .rightPart {
-	height: 100vh;
+	height: 100%;
 	background-color: #f7e6e3;
 	overflow: auto;
 	padding: 1.5em;
@@ -14,5 +14,15 @@
 	border: none;
 	padding-top: 2em;
 	padding-bottom: 2em;
-	font-size: 18px;
+	font-size: 18px; 
+}
+
+@media(min-width: 750px) {
+	.rightPart {
+	height: 100vh;
+	background-color: #f7e6e3;
+	overflow: auto;
+	padding: 1.5em;
+}
+
 }
