@@ -5,7 +5,12 @@
 }
 
 a {
+  
   color: #737373;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .frame {

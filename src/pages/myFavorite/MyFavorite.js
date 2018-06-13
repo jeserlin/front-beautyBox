@@ -4,7 +4,9 @@ import './MyFavorite.css';
 class MyFavorite extends Component {
 	render() {
 		return(
-			<div>123</div>
+			<div>
+				<h3 className="subhead">我的最愛</h3>
+			</div>
 		);
 	}
 }

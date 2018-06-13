@@ -44,7 +44,7 @@ class Main extends Component {
 					<Col className="leftPart" md={2} xsHidden smHidden>
 						<center>
 							<Logo style={logoStyle} />
-							<ButtonGroup className="pt2" vertical block>
+							<ButtonGroup id="leftMenu" className="pt2" vertical block>
 								<Link to="/myFavorite"><Button><FaHeart style={iconStyle} /> 我的最愛 </Button></Link>
 						  		<Link to="/inventory"><Button><IoIosBox style={iconStyle} /> 庫存管理 </Button></Link>
 						  		<Link to="/userInfo"><Button><FaUser style={iconStyle} /> 會員資料 </Button></Link>

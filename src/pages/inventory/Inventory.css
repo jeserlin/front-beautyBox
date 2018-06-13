@@ -1,0 +1,22 @@
+.inventoryAddBtn {
+	position: fixed;
+	color: #F7786B !important;
+	border: 2px solid #F7786B;
+	border-radius: 50%;
+	right: 2em;
+	bottom: 2em;
+	width: 3em;
+	height: 3em;
+}
+
+.inventoryAddBtn:hover {
+	border: 2px solid #F7786B !important;
+	background-color: #ffffff !important;
+	transform : scale(1.1);
+	transition : 150ms;
+}
+
+.inventoryAddBtn:active {
+	border: 2px solid #F7786B !important;
+	background-color: #f2f2f2 !important;
+}

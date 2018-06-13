@@ -24,7 +24,7 @@ class Login extends Component {
     return (
       <Grid id="loginFrame">
         <Row className="show-grid">
-            <Col className="pb2" xs={12} md={4} mdOffset={4}>
+            <Col className="pt1 pb2" xs={12} md={4} mdOffset={4}>
                 <center>
                   <Logo style={logoStyle} />
                 </center>
