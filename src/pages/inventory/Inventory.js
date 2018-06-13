@@ -13,7 +13,7 @@ class Inventory extends Component {
 				<h3 className="subhead">
 					庫存管理
 				</h3>
-				<Button className="inventoryAddBtn" bsSize="large"><FaPlus /></Button>
+				<Button className="pinkBtn inventoryAddBtn" bsSize="large"><FaPlus /></Button>
 			</div>
 		);
 	}

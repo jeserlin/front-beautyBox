@@ -38,27 +38,30 @@ button.greyBtn {
 
 button.greyBtn:hover {
 	color: #ffffff !important;
-	background-color: #808080 !important;
+	background-color: #a6a6a6 !important;
 }
 
 button.greyBtn:active {
 	color: #ffffff !important;
-	background-color: #737373 !important;
+	background-color: #ffffff !important;
 }
 
 button.pinkBtn {
-	color: #ffffff !important;
-	background-color: #faa79e !important;
+	color: #F7786B !important;
+	border: 2px solid #F7786B;
+	background-color: #ffffff !important;
 }
 
 button.pinkBtn:hover {
-	color: #ffffff !important;
-	background-color: #f99186 !important;
+	color: #F7786B !important;
+	border: 2px solid #F7786B !important;
+	background-color: #ffffff !important;
 }
 
 button.pinkBtn:active {
-	color: #ffffff !important;
-	background-color: #f87b6d !important;
+	color: #F7786B !important;
+	border: 2px solid #F7786B !important;
+	background-color: #f2f2f2 !important;
 }
 
 /*padding*/
