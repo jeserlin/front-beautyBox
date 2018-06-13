@@ -2,19 +2,17 @@ import React, { Component } from 'react';
 import { Col, Image, Button } from 'react-bootstrap';
 import './EditUserPic.css';
 
+// Picture
 import defaultPic from '../../img/userPic.png';
 
 class EditUserPic extends Component {
 	render() {
 		return(
-			<Col>
-				<Col xs={12}>
-					<Image className="max250" src={defaultPic} responsive thumbnail />
-				</Col>
-				<Col className="pt1" xs={12}>
-					<Button className="max250 pinkBtn" block>上傳照片</Button>
-				</Col>
-			</Col>
+			<div>
+				<Image className="max200" src={defaultPic} responsive thumbnail />
+				<Col className="pt1"></Col>
+				<Button className="max200 pinkBtn" block>上傳照片</Button>
+			</div>
 		);
 	}
 }

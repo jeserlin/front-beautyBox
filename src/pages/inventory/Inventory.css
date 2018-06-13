@@ -1,10 +1,11 @@
 .inventoryAddBtn {
 	position: fixed;
 	border-radius: 50%;
-	right: 2em;
-	bottom: 2em;
-	width: 3em;
-	height: 3em;
+	right: 1em;
+	bottom: 1em;
+	width: 55px;
+	height: 55px;
+	z-index: 1;
 }
 
 .inventoryAddBtn:hover {

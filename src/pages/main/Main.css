@@ -5,8 +5,9 @@
 
 .rightPart {
 	height: 100%;
+	background-color: #f7e6e3;
 	overflow: auto;
-	padding: 1.5em;
+	padding-top: 1.5em;
 }
 
 .leftPart > center > div > a > button {
